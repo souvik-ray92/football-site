@@ -59,8 +59,9 @@ header{
 
 /* top player section start */
 .top-players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding-top: 70px;
 }
 .player{
@@ -85,4 +86,41 @@ header{
     line-height: 26px;
     color: #6C6C6C;
     padding-top: 10px;
+}
+/* top player section end */
+
+/* footer part start */
+.footer-container{
+    width: 483.87px;
+    height: 213px;
+    margin: auto;
+}
+.logo{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 100%;
+}
+.social-media {
+    margin: auto;
+    width: 170px;
+    height: 32px;
+    display: flex;
+}
+.social-media i {
+    margin: 0px 14px;
+    color: gray;
+}
+.Copyright {
+    margin: auto;
+    width: 236px;
+    height: 31px;
+    margin-top: 20px;
+}
+.Copyright p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 }
