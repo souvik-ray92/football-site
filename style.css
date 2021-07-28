@@ -18,7 +18,7 @@ header{
     height: 677px;
 }
 
-/* banner start */
+/* header start */
 .banner{
     display: flex;
     align-items: center;
@@ -55,7 +55,11 @@ header{
     width: 556.01px;
     height: 438px;
 }
-/* banner end */
+.banner-image:hover img{
+    transform: rotate(30deg);
+    transition: 2s;
+}
+/* header end */
 
 /* top player section start */
 .top-players{
@@ -195,6 +199,8 @@ header{
     padding: 9px 18px;
     border-radius: 4px;
 }
+/* membership part end  */
+
 /* footer part start */
 .footer-container{
     width: 483.87px;
