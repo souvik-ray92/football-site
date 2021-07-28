@@ -112,6 +112,89 @@ header{
     height: 450px;
     margin-top: 35px;
 }
+/* youtube video section end */
+
+ /* Subscription Plan start */
+ .subscription-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.subscription-plan h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px;
+}
+/* Subscription Plan end */
+
+/* membership part start  */
+.membership {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.membership-plan {
+    max-width: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+}
+.item-title {
+    width: 100%;
+    text-align: center;
+    border-width: 1px 1px 0 1px;
+    background-color: rgba(39,85,160);
+}
+.item-title h3{
+    font-size: 19px;
+    color: #fff;
+    padding: 4px;
+    line-height: 40px;
+}
+.item-price{
+    background-color: rgba(39,85,160,.8);
+    width: 100%;
+    text-align: center;
+}
+.item-price h3{
+    font-size: 45px;
+    color: #fff;
+    line-height: 65px;
+    padding: 10px 0;
+}
+.item-content {
+    padding: 10px;
+    min-height: 150px;
+    padding-bottom: 65px;
+}
+.item-content ul {
+    padding-left: 30px;
+}
+.item-content li {
+    font-size: 16px;
+    line-height: 32px;
+}
+.item-button {
+    display: flex;
+    position: relative;
+    background-color: #f2f2f2;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+.sign-up {
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    width: 124px;
+    height: 44px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #ffff;
+    padding: 9px 18px;
+    border-radius: 4px;
+}
 /* footer part start */
 .footer-container{
     width: 483.87px;
