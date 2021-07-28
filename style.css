@@ -89,6 +89,29 @@ header{
 }
 /* top player section end */
 
+/* youtube video section start */
+
+.youtube-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.youtube-video h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.argentina{
+    color: #75aadb;
+}
+.brazil{
+    color: #009c3b;
+}
+.youtube-video iframe {
+    width: 70%;
+    height: 450px;
+    margin-top: 35px;
+}
 /* footer part start */
 .footer-container{
     width: 483.87px;
@@ -124,3 +147,4 @@ header{
     font-size: 18px;
     line-height: 24px;
 }
+/* footer part end */
