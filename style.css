@@ -331,3 +331,62 @@ header{
 
 
 }
+
+/* tablet media query */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    /* header part */
+    header{
+        height: auto;
+    }
+    .banner{
+        padding-bottom: 60px;
+    }
+    .banner-text {
+        padding: 0 0 0 20px;
+    }
+    .banner-text h1{
+        font-size: 45px;
+    }
+    .banner-image{
+        margin-left: 0;
+    }
+    .banner-image img{
+        width: 100%;
+        height: auto;
+    }
+    .banner-text,.banner-image{
+        margin-top: 100px;
+    }
+
+    /* youtube video */
+    .youtube-video h1{
+        font-size: 45px;
+    }
+    .youtube-video iframe{
+        width: 80%;
+    }
+
+    /* subscription plan */
+    .subscription-plan h1{
+        font-size: 45px;
+    }
+    .subscription-plan img {
+        width: 100%;
+    }
+
+    /* membership plan */
+    .membership-plan {
+        width: 325px;
+    }
+
+    /* footer */
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+    .social-media i{
+        font-size: 30px;
+    }
+
+
+}
